@@ -23,6 +23,30 @@
 ./compress.sh [output_archive_name] [file1] [file2] ... [fileN]
 ```
 
+### 3 Compact or Descompact Script
+ - Purpose: The user will be able to interact and make the choice to zip or unzip, 
+   in addtion to being able to choose where they want the file to be saved.
+
+#### Features
+ - Create compressed or descompress multiple files.
+ - The user can choose where they want the file to be saved.
+
+#### Usage
+```bash
+./compedescomp.sh
+	compactar
+		./home/your-local-destiny
+			./file-to-compress(1) ./file-to-compress(2) ./file-to-compress(n)
+```
+#### Or
+```bash
+./compedescomp.sh
+	descompactar
+		./home/your-file-for-descompat
+			./local-to-destiny
+```
+
+
 ### Prerequisites
  - Ensure you have the following installed on your system:
  - Bash (for running the shell scripts).
